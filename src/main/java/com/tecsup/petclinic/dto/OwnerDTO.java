@@ -18,9 +18,8 @@ public class OwnerDTO {
 	private String lastName;
 	private String telephone;
 	
-	public OwnerDTO(long id, String first_name, String last_name, String telephone) {
+	public OwnerDTO( String first_name, String last_name, String telephone) {
 		super();
-		this.id = id;
 		this.firstName = first_name;
 		this.lastName = last_name;
 		this.telephone = telephone;
